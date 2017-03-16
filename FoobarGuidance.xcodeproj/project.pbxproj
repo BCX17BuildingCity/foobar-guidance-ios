@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD2E57B71E7953C00012E6AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2E57B61E7953C00012E6AB /* AppDelegate.swift */; };
+		DD2E57BC1E7953C00012E6AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2E57BA1E7953C00012E6AB /* Main.storyboard */; };
+		DD2E57BF1E7953C00012E6AB /* FoobarGuidance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD2E57BD1E7953C00012E6AB /* FoobarGuidance.xcdatamodeld */; };
+		DD2E57C11E7953C00012E6AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2E57C01E7953C00012E6AB /* Assets.xcassets */; };
+		DD2E57C41E7953C00012E6AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2E57C21E7953C00012E6AB /* LaunchScreen.storyboard */; };
+		DD2E57CC1E797A4F0012E6AB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2E57CB1E797A4F0012E6AB /* MainViewController.swift */; };
+		DD2E57D01E797CA40012E6AB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2E57CF1E797CA40012E6AB /* Alamofire.framework */; };
+		DD2E57D21E798ADF0012E6AB /* PairCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2E57D11E798ADF0012E6AB /* PairCardViewController.swift */; };
+		DD2E57D41E798BE10012E6AB /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2E57D31E798BE10012E6AB /* LocationManager.swift */; };
+		DD2E57D61E79B4200012E6AB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2E57D51E79B4200012E6AB /* SearchViewController.swift */; };
+		DD2E57D91E79D0CB0012E6AB /* SearchUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2E57D71E79D0CB0012E6AB /* SearchUITableViewCell.swift */; };
+		DD2E57DA1E79D0CB0012E6AB /* SearchUITableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD2E57D81E79D0CB0012E6AB /* SearchUITableViewCell.xib */; };
+		DDFB210B1E7AA74B00327250 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFB21091E7AA74A00327250 /* MainCollectionViewCell.swift */; };
+		DDFB210C1E7AA74B00327250 /* MainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDFB210A1E7AA74B00327250 /* MainCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD2E57B31E7953C00012E6AB /* FoobarGuidance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoobarGuidance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2E57B61E7953C00012E6AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD2E57BB1E7953C00012E6AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD2E57BE1E7953C00012E6AB /* FoobarGuidance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoobarGuidance.xcdatamodel; sourceTree = "<group>"; };
+		DD2E57C01E7953C00012E6AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD2E57C31E7953C00012E6AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD2E57C51E7953C00012E6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2E57CB1E797A4F0012E6AB /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DD2E57CF1E797CA40012E6AB /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		DD2E57D11E798ADF0012E6AB /* PairCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairCardViewController.swift; sourceTree = "<group>"; };
+		DD2E57D31E798BE10012E6AB /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		DD2E57D51E79B4200012E6AB /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		DD2E57D71E79D0CB0012E6AB /* SearchUITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchUITableViewCell.swift; sourceTree = "<group>"; };
+		DD2E57D81E79D0CB0012E6AB /* SearchUITableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchUITableViewCell.xib; sourceTree = "<group>"; };
+		DD2E57DB1E79D8970012E6AB /* FoobarGuidance.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoobarGuidance.entitlements; sourceTree = "<group>"; };
+		DDFB21091E7AA74A00327250 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		DDFB210A1E7AA74B00327250 /* MainCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD2E57B01E7953C00012E6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2E57D01E797CA40012E6AB /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD2E57AA1E7953C00012E6AB = {
+			isa = PBXGroup;
+			children = (
+				DD2E57B51E7953C00012E6AB /* FoobarGuidance */,
+				DD2E57B41E7953C00012E6AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD2E57B41E7953C00012E6AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD2E57B31E7953C00012E6AB /* FoobarGuidance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD2E57B51E7953C00012E6AB /* FoobarGuidance */ = {
+			isa = PBXGroup;
+			children = (
+				DD2E57DB1E79D8970012E6AB /* FoobarGuidance.entitlements */,
+				DD2E57B61E7953C00012E6AB /* AppDelegate.swift */,
+				DD2E57BA1E7953C00012E6AB /* Main.storyboard */,
+				DDFB21091E7AA74A00327250 /* MainCollectionViewCell.swift */,
+				DDFB210A1E7AA74B00327250 /* MainCollectionViewCell.xib */,
+				DD2E57D71E79D0CB0012E6AB /* SearchUITableViewCell.swift */,
+				DD2E57D81E79D0CB0012E6AB /* SearchUITableViewCell.xib */,
+				DD2E57D31E798BE10012E6AB /* LocationManager.swift */,
+				DD2E57D11E798ADF0012E6AB /* PairCardViewController.swift */,
+				DD2E57CB1E797A4F0012E6AB /* MainViewController.swift */,
+				DD2E57D51E79B4200012E6AB /* SearchViewController.swift */,
+				DD2E57C01E7953C00012E6AB /* Assets.xcassets */,
+				DD2E57C21E7953C00012E6AB /* LaunchScreen.storyboard */,
+				DD2E57C51E7953C00012E6AB /* Info.plist */,
+				DD2E57BD1E7953C00012E6AB /* FoobarGuidance.xcdatamodeld */,
+				DD2E57CE1E797C900012E6AB /* Frameworks */,
+			);
+			path = FoobarGuidance;
+			sourceTree = "<group>";
+		};
+		DD2E57CE1E797C900012E6AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD2E57CF1E797CA40012E6AB /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD2E57B21E7953C00012E6AB /* FoobarGuidance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2E57C81E7953C00012E6AB /* Build configuration list for PBXNativeTarget "FoobarGuidance" */;
+			buildPhases = (
+				DD2E57AF1E7953C00012E6AB /* Sources */,
+				DD2E57B01E7953C00012E6AB /* Frameworks */,
+				DD2E57B11E7953C00012E6AB /* Resources */,
+				DD2E57CD1E797B760012E6AB /* Carthage */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoobarGuidance;
+			productName = FoobarGuidance;
+			productReference = DD2E57B31E7953C00012E6AB /* FoobarGuidance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD2E57AB1E7953C00012E6AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "wingu AG";
+				TargetAttributes = {
+					DD2E57B21E7953C00012E6AB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9232HDTN9M;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DD2E57AE1E7953C00012E6AB /* Build configuration list for PBXProject "FoobarGuidance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD2E57AA1E7953C00012E6AB;
+			productRefGroup = DD2E57B41E7953C00012E6AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD2E57B21E7953C00012E6AB /* FoobarGuidance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD2E57B11E7953C00012E6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2E57C41E7953C00012E6AB /* LaunchScreen.storyboard in Resources */,
+				DD2E57DA1E79D0CB0012E6AB /* SearchUITableViewCell.xib in Resources */,
+				DD2E57C11E7953C00012E6AB /* Assets.xcassets in Resources */,
+				DDFB210C1E7AA74B00327250 /* MainCollectionViewCell.xib in Resources */,
+				DD2E57BC1E7953C00012E6AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD2E57CD1E797B760012E6AB /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD2E57AF1E7953C00012E6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2E57D61E79B4200012E6AB /* SearchViewController.swift in Sources */,
+				DD2E57D91E79D0CB0012E6AB /* SearchUITableViewCell.swift in Sources */,
+				DD2E57D21E798ADF0012E6AB /* PairCardViewController.swift in Sources */,
+				DDFB210B1E7AA74B00327250 /* MainCollectionViewCell.swift in Sources */,
+				DD2E57CC1E797A4F0012E6AB /* MainViewController.swift in Sources */,
+				DD2E57D41E798BE10012E6AB /* LocationManager.swift in Sources */,
+				DD2E57BF1E7953C00012E6AB /* FoobarGuidance.xcdatamodeld in Sources */,
+				DD2E57B71E7953C00012E6AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD2E57BA1E7953C00012E6AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2E57BB1E7953C00012E6AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD2E57C21E7953C00012E6AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2E57C31E7953C00012E6AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD2E57C61E7953C00012E6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD2E57C71E7953C00012E6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD2E57C91E7953C00012E6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FoobarGuidance/FoobarGuidance.entitlements;
+				DEVELOPMENT_TEAM = 9232HDTN9M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FoobarGuidance",
+				);
+				INFOPLIST_FILE = FoobarGuidance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.wingu.FoobarGuidance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DD2E57CA1E7953C00012E6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FoobarGuidance/FoobarGuidance.entitlements;
+				DEVELOPMENT_TEAM = 9232HDTN9M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FoobarGuidance",
+				);
+				INFOPLIST_FILE = FoobarGuidance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.wingu.FoobarGuidance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD2E57AE1E7953C00012E6AB /* Build configuration list for PBXProject "FoobarGuidance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2E57C61E7953C00012E6AB /* Debug */,
+				DD2E57C71E7953C00012E6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD2E57C81E7953C00012E6AB /* Build configuration list for PBXNativeTarget "FoobarGuidance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2E57C91E7953C00012E6AB /* Debug */,
+				DD2E57CA1E7953C00012E6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD2E57BD1E7953C00012E6AB /* FoobarGuidance.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD2E57BE1E7953C00012E6AB /* FoobarGuidance.xcdatamodel */,
+			);
+			currentVersion = DD2E57BE1E7953C00012E6AB /* FoobarGuidance.xcdatamodel */;
+			path = FoobarGuidance.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD2E57AB1E7953C00012E6AB /* Project object */;
+}
